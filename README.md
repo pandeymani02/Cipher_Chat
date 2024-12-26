@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Decentralized Chat DApp
 
 Welcome to the Decentralized Chat DApp branded `Chatzone`! This project aims to create a decentralized chat application using Ethereum blockchain and IPFS for secure profile image storage. Below you'll find information on the project structure, setup instructions, and how to contribute.
@@ -86,3 +87,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 This project is licensed under the [MIT License](LICENSE).
 
+=======
+# Cipher_Chat
+>>>>>>> origin/main
