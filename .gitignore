@@ -1,0 +1,35 @@
+# General ignores for all directories
+node_modules/            # Ignore node_modules across all directories
+dist/                    # Ignore build directories
+build/
+.env                     # Ignore environment variable files
+.DS_Store                # macOS specific
+Thumbs.db                # Windows specific
+*.log                    # Log files
+*.tmp                    # Temporary files
+*.swp                    # Swap files for editors
+.vscode/                 # VS Code settings
+.idea/                   # IntelliJ-based IDEs
+
+# Contract-specific (Solidity files)
+contract/build/          # Ignore build artifacts (e.g., Truffle or Hardhat builds)
+contract/cache/          # Hardhat cache
+*.json                   # Ignore specific JSON artifacts if unnecessary (adjust if needed)
+
+# Frontend-specific
+frontend/node_modules/   # Node.js dependencies
+frontend/dist/           # Build output
+frontend/.env            # Environment files for the frontend
+frontend/.next/          # Next.js build folder (if applicable)
+frontend/out/            # Next.js static export folder
+
+# Backend (MyRelayer) specific
+myRelayer/node_modules/  # Node.js dependencies
+myRelayer/.env           # Environment file for backend
+myRelayer/logs/          # Logs folder
+myRelayer/temp/          # Temporary files
+
+# Ignore lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
